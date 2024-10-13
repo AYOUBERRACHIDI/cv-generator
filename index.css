@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; 
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.cv-form {
+  background-color: white; 
+  padding: 30px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  max-width: 600px; 
+  margin: auto; 
+}
+
+.cv-form h2 {
+  margin-bottom: 20px;
+  color: #000000; 
+}
+
+.cv-form input,
+.cv-form select,
+.cv-form textarea {
+  width: 100%; 
+  padding: 12px; 
+  margin: 10px 0; 
+  border: 1px solid #ced4da; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  transition: border 0.3s; 
+}
+
+.cv-form input:focus,
+.cv-form select:focus,
+.cv-form textarea:focus {
+  border-color: #007bff; 
+  outline: none; 
+}
+
+.cv-form button {
+  background-color: #007bff; 
+  color: white; 
+  padding: 12px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px;
+  transition: background-color 0.3s; 
+}
+
+.cv-form button:hover {
+  background-color: #0056b3; 
+}
+
+
+.language-input {
+  display: flex; 
+  align-items: center; 
+  margin: 10px 0; 
+}
+
+.language-input input {
+  margin-right: 10px; 
+}
+
+@media (max-width: 600px) {
+  .cv-form {
+    padding: 20px; 
+  }
+
+  .cv-form button {
+    width: 100%; 
+  }
+}
